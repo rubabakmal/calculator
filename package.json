@@ -1,0 +1,21 @@
+{
+  "name": "calculator-rubab",
+  "version": "0.0.1",
+  "description": "A small calculator which performs multiple tasks",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "deploy": "python deploy_script.py",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.30"
+  }
+}
